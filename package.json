@@ -19,8 +19,8 @@
     "node": ">= 8.10"
   },
   "scripts": {
-    "init": "tsg init",
-    "serve": "browser-sync start --server build --port 5000 --files 'build/**/*' --reload-debounce",
+    "init": "GLITCH=true tsg init",
+    "serve": "browser-sync start --server build --port 3000 --files 'build/**/*' --reload-debounce",
     "build": "tsg build",
     "deploy": "tsg deploy",
     "watch:tsg": "tsg watch -W",
